@@ -1,0 +1,30 @@
+.card {
+  width: 10rem;
+  height: 10rem;
+  border: 5px solid blueviolet;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+  border: 5px solid orange;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.div{
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,22 @@
+
+
+.headerTitle {
+    text-align: center;
+    font-family: nick;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(67, 223, 6);
+    margin-bottom: 0;
+    margin-top: -4px;
+}
+
+.header {
+    padding-top: 4rem;
+   
+}
+
+
+@font-face {
+    font-family: nick;
+    src: url(/assets/fonts/NICK.ttf);
+}

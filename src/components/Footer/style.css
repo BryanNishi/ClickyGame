@@ -1,0 +1,21 @@
+.footer {
+    background-color: blueviolet;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+    }
+
+h5 {
+    font-family: nick;
+    font-size: 2rem;
+    text-align: center;
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: nick;
+    src: url(/assets/fonts/NICK.ttf);
+}

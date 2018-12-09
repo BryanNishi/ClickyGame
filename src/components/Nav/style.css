@@ -1,0 +1,57 @@
+.navbar {
+    background-color: blueviolet;
+    color: orange;
+    font-family: Nick;
+    position: fixed;
+    width: 100%;
+    font-family: nick;
+    font-size: 2rem;
+    text-shadow: 1px -1px 0px #f1f1f1;
+    z-index: 99;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+}
+
+.brand {
+    color: orange;
+    font-size: 2rem;
+    text-decoration: none;
+    width: 35%;
+}
+
+a:hover {
+    color: yellowgreen;
+
+}
+
+@font-face {
+    font-family: nick;
+    src: url(/assets/fonts/NICK.ttf);
+}
+
+.navItem {
+    width: 33.3%;
+    word-wrap: unset;
+    margin: 0;
+    
+}
+
+li{
+list-style-type: none;
+}
+.status {
+    width: 25%;
+}
+
+.currentScore {
+    width: 20%;
+}
+
+.highScore {
+    width: 20%;
+}
+
+p{
+    margin: 0;
+}
